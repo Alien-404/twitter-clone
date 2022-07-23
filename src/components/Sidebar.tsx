@@ -30,7 +30,7 @@ export default function Sidebar() {
       <SidebarRow
         Icon={UserIcon}
         onClick={session ? signOut : signIn}
-        title={session ? 'Sing Out' : 'Sing In'}
+        title={session ? 'Sign Out' : 'Sign In'}
       />
       <SidebarRow Icon={DotsCircleHorizontalIcon} title='More' />
     </div>
